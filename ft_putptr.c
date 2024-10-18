@@ -6,7 +6,7 @@
 /*   By: apiscopo <apiscopo@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 23:31:25 by apiscopo          #+#    #+#             */
-/*   Updated: 2024/10/17 04:08:02 by apiscopo         ###   ########.fr       */
+/*   Updated: 2024/10/18 17:43:14 by apiscopo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,6 @@ ssize_t	ft_putptr(void *ptr)
 	ft_putnbr_ptr(addr, base, &count);
 	return (count);
 }
+/*
+	Affiche l'adresse d'un pointeur sur la sortie standard.
+*/

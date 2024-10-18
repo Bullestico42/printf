@@ -6,7 +6,7 @@
 #    By: apiscopo <apiscopo@student.42lausanne.c    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/16 22:10:56 by apiscopo          #+#    #+#              #
-#    Updated: 2024/10/17 02:04:28 by apiscopo         ###   ########.fr        #
+#    Updated: 2024/10/18 17:35:16 by apiscopo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,8 +16,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
 # Fichiers source principaux
-SRC =	ft_printf.c ft_putchar.c ft_putnbr.c ft_putnbrbasehex.c ft_putstr.c \
-		ft_putptr.c ft_putnbr_un.c
+SRC =	ft_printf.c ft_putc.c ft_puthex.c ft_putnbr.c ft_putptr.c ft_putstr.c \
+		ft_putun.c
 
 # Objets correspondants
 OBJ = $(SRC:.c=.o)
