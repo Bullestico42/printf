@@ -2,7 +2,6 @@
 Que fait la fonction ?
 ----------------------
 La fonction ft_printf reproduit le comportement de la fonction printf de la bibliothèque <stdio.h>. Elle permet d'afficher une chaîne de caractères formatée avec différents types de variables.
-Quelles sont les bibliothèques autorisées pour ce projet ?
 
 Pour ce projet, j'ai le droit d'utiliser les bibliothèques suivantes :
 -------
